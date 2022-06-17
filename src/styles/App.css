@@ -1,0 +1,83 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(218, 23%, 16%);
+    font-size: 24px;
+}
+
+.App .container {
+    background-color: hsl(217, 19%, 24%);
+    color: hsl(193, 38%, 86%);
+    border-radius: 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 2rem;
+    margin-inline: 1rem;
+    min-block-size: 290px;
+}
+
+.App .container .title {
+    font-size: .8rem;
+    margin-block-end: 1.5rem;
+    letter-spacing: 5px;
+    color: hsl(150, 100%, 66%);
+}
+
+.App .container .separator {
+    margin-block: 1.5rem 1.2rem;
+}
+
+.App .container .button-container {
+    position: absolute;
+    bottom: -10%;
+}
+
+.App .container .button-container .load-btn {
+    background-color: hsl(150, 100%, 66%);
+    border: none;
+    width: 60px;
+    height: 60px;
+    text-indent: 100%;
+    overflow: hidden;
+    background-image: url(../images/icon-dice.svg);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center center;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.App .container .button-container .load-btn:hover {
+    box-shadow: 5px 5px 40px hsl(150, 100%, 66%), -5px -5px 40px hsl(150, 100%, 66%);
+}
+
+@media (min-width: 360px) {
+    .App .container {
+        padding-block: 2rem;
+        padding-inline: 1rem;
+    }
+}
+
+@media (min-width: 500px) {
+    .App .container {
+        inline-size: 500px;
+        padding: 3rem;
+    }
+
+
+}
+
+img {
+    width: 100%;
+}
+
+.advice .loading {
+    font-size: .7rem;
+}
