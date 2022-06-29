@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [code](https://github.com/7heDoer/random-advice)
+- Solution URL: [code](https://github.com/HIIfeanyichukwu/random-advice)
 - Live Site URL: [demo](https://doadvice.surge.sh)
 
 ## My process
