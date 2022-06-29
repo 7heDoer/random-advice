@@ -51,8 +51,8 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@7heDoer](https://www.frontendmentor.io/profile/7heDoer)
-- Twitter - [@7heDoer](https://www.twitter.com/7heDoer)
+- Frontend Mentor - [@7heDoer](https://www.frontendmentor.io/profile/HIIfeanyichukwu)
+- Twitter - [@7heDoer](https://www.twitter.com/HIIfeanyichukwu)
 
 
 ## Acknowledgments
